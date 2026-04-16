@@ -1,57 +1,60 @@
-# 🎓 Centre de Formation - Excellence Commerciale & Relation Client
+# Centre de Formation - Application Frontend
 
-> **Propulsez vos performances commerciales grâce à des méthodes modernes et une approche axée sur les résultats.**
+## 📋 Présentation
 
----
+Plateforme complète et interactive conçue pour un centre de formation en relation client et service commercial. Cette application simule l'intégralité des outils utilisés dans un centre d'appel professionnel, offrant une expérience d'apprentissage immersive et réaliste.
 
-## 📌 À propos
-Ce centre de formation est dédié à l'accompagnement des professionnels et des entreprises souhaitant transformer leur force de vente. Nous combinons **techniques de vente traditionnelles** et **outils digitaux modernes** pour créer des parcours d'apprentissage impactants.
+## 🎯 Objectif
 
-L'objectif est simple : passer d'un service client réactif à une force commerciale proactive et performante.
+Fournir aux apprenants une simulation fidèle de l'environnement de travail réel d'un centre d'appel, avec tous les outils, workflows et fonctionnalités nécessaires pour développer les compétences en relation client.
 
----
+## 🛠️ Stack Technique
 
-## 🚀 Nos Axes de Formation
+- **Framework Frontend** : React 18.3.1
+- **Langage** : TypeScript
+- **Build Tool** : Vite 6.3.5
+- **Styling** : Tailwind CSS 4.1.12
+- **UI Library** : Material-UI (@mui/material 7.3.5)
+- **Composants Avancés** : Radix UI (complets: Accordion, Dialog, Dropdown, Navigation, etc.)
+- **Icônes** : Material-UI Icons 7.3.5
+- **Graphiques** : Recharts 2.15.2
+- **Gestion d'état** : React Hook Form 7.55.0
+- **Animations** : Motion 12.23.24, Embla Carousel 8.6.0
+- **Notifications** : Sonner 2.0.3
+- **Drag & Drop** : React DnD 16.0.1
 
-### 1. Fondamentaux de la Vente & Négociation
-* **Prospection active :** Maîtriser l'art de l'approche (téléphonique, physique et digitale).
-* **Traitement des objections :** Transformer un "Non" en opportunité.
-* **Closing :** Techniques de conclusion pour sécuriser vos contrats.
+## 📦 Composants du Projet
 
-### 2. Relation Client & Fidélisation
-* **Communication d'influence :** Développer l'empathie et l'écoute active.
-* **Gestion des conflits :** Savoir désamorcer les situations tendues avec professionnalisme.
-* **Expérience Client (CX) :** Créer un parcours mémorable pour fidéliser sur le long terme.
+### Architecture Modulaire
 
-### 3. Digital Sales & Sales Automation ⚡
-*(Notre touche technologique)*
-* **Social Selling :** Optimiser sa présence sur LinkedIn et Facebook pour attirer des leads.
-* **CRM Mastery :** Utiliser les outils (HubSpot, Salesforce, etc.) pour ne plus jamais perdre un prospect.
-* **Automatisation légère :** Introduction aux outils de productivité pour se concentrer sur la vente, pas sur l'administratif.
+- **Composants Interactifs** : Suite complète de composants Radix UI pour une expérience utilisateur fluide
+- **Interface Dashboard** : Tableaux de bord avec graphiques et métriques en temps réel
+- **Gestion des Appels** : Simulation de centre d'appel avec workflows réalistes
+- **Formulaires Avancés** : Formularisation professionnelle avec React Hook Form et validation
+- **Système d'Animations** : Animations fluides et transitions professionnelles
+- **Responsivité** : Design mobile-first avec Tailwind CSS
 
----
+## 🎨 Fonctionnalités Principales
 
-## 🛠️ Méthodologie Pédagogique
-Nous croyons en l'apprentissage par l'action (**Learning by doing**) :
-* **80% Pratique :** Jeux de rôles, simulations d'appels et ateliers de groupe.
-* **20% Théorie :** Supports de cours modernes et études de cas réels.
-* **Suivi Post-Formation :** Un accompagnement personnalisé pour s'assurer de la mise en application sur le terrain.
+✅ Simulation réaliste de centre d'appel  
+✅ Dashboard avec visualisation de données  
+✅ Interface de gestion des appels  
+✅ Système d'alertes et notifications  
+✅ Formulaires d'apprentissage interactifs  
+✅ Drag & Drop pour manipulations pédagogiques  
+✅ Support du multi-format (calendrier, cartes, listes)
 
----
+## 🔧 Installation & Utilisation
 
-## 📈 Pourquoi nous choisir ?
-| Bénéfices | Description |
-| :--- | :--- |
-| **Expertise Terrain** | Formateurs issus du monde du commerce avec +5 ans d'expérience. |
-| **Adaptabilité** | Formations personnalisées selon votre secteur d'activité. |
-| **Outils Modernes** | Intégration des dernières tendances en Sales Ops et Automation. |
+```bash
+# Installation des dépendances
+npm install
 
----
+# Mode développement
+npm run dev
 
-## 📂 Structure du Programme (Exemple)
-```text
-📂 formation-commerciale/
-├── 📄 01_prospection_strategique.md
-├── 📄 02_psychologie_achat.md
-├── 📄 03_negociation_avancee.md
-└── 📄 04_fidelisation_client.md
+# Build production
+npm run build
+
+# Aperçu de la version compilée
+npm run preview
